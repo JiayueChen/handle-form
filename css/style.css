@@ -1,0 +1,159 @@
+body {
+    line-height: 1.4rem;
+    font-size: 1rem;
+    font-family: 'PT Sans', sans-serif;
+    background-color: #eae8ca;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 2rem 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    font-family: 'Merriweather', serif;
+}
+
+a:link,
+a:visited {
+    color: #fff;
+}
+
+a:hover,
+a:active {
+    color: #000;
+}
+
+header {
+    background-image: url("../img/rye.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li a {
+    line-height: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+form {
+    background-color: #fff;
+    max-width: 50rem;
+    padding: 1rem;
+    margin: 1em;
+}
+
+form,
+fieldset,
+input,
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+legend {
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+fieldset {
+    background-color: #F5F5F5;
+}
+
+input,
+textarea {
+    width: 100%;
+    line-height: 1.5rem;
+}
+
+input[type=submit] {
+    background-color: #6293F0;
+    color: #fff;
+    line-height: 2.5rem;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.box {
+    margin: 2.5%;
+}
+
+footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /*    display: flex;*/
+    text-align: center;
+}
+
+footer nav {
+
+    margin-top: 1rem;
+}
+
+footer nav li {
+    align-self: center;
+}
+
+footer nav img {
+    max-width: 50px;
+}
+
+@media only screen and (min-width: 35rem) {
+    body {
+        font-size: 1.5rem;
+    }
+
+    form {
+        padding: 2rem 4rem;
+        margin: auto;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .box:nth-child(2),
+    .box:nth-child(3) {
+        width: 45%;
+        float: left;
+    }
+
+    .box:nth-child(4) {
+        clear: both;
+    }
+
+    input[type=submit] {
+        width: auto;
+        padding: 0 2rem;
+    }
+
+}
